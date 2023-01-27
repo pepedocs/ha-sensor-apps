@@ -1,0 +1,2 @@
+zevercloud-api
+aiohttp

@@ -1,0 +1,11 @@
+version: "3.9"
+services:
+  http-zeversolar:
+    build: .
+    restart: unless-stopped
+    environment:
+      - API_KEY=${API_KEY}
+      - APP_KEY=${APP_KEY}
+      - APP_SECRET=${APP_SECRET}
+      - HA_API_KEY=${HA_API_KEY}
+      - HA_API_URL=${HA_API_URL}

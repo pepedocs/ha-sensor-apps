@@ -1,0 +1,4 @@
+aiohttp
+selenium
+selenium-async
+requests
